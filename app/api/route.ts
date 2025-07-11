@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 const ai = new GoogleGenAI({vertexai: false, apiKey: process.env.GOOGLE_API_KEY as string});
 
-export async function POST(req: NextRequest,res: NextResponse){
+export async function POST(req: NextRequest){
     const { inputCode,inputLang,outputLang } = await req.json();
 
 
