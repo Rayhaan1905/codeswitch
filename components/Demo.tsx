@@ -11,7 +11,7 @@ const DemoSection = () => {
   const [isConverting, setIsConverting] = useState(false);
 
   const languages = [
-    'javascript', 'python', 'java', 'cpp', 'csharp', 'go', 'rust', 'typescript', 'php', 'ruby', 'kotlin', 'swift'
+    'C','javascript', 'python', 'java', 'cpp', 'csharp', 'go', 'rust', 'typescript', 'php', 'ruby', 'kotlin', 'swift'
   ];
 
   const handleConvert = async () => {
