@@ -12,7 +12,9 @@ export async function POST(req: NextRequest){
         contents: `
 you are a code converting assistant .
 Task : Convert the input code's language to the selected output code's language
-with out any logic changes and use the similar variabels given to you first and handle any erros if present. 
+with out any logic changes and use the similar variabels given to you first and handle any erros if present.
+and dont add any comments to it just i need the exact copy of the code which i gave you first into the language i 
+selected and dont give anything extra just an exact copy converted to the desired language.Handle the errors if any.
 
 input code:
 ${inputCode}
